@@ -10,8 +10,6 @@ interface DAO {
     @Update
     fun updateTask(entity: Entity)
 
-
-
     @Delete
     fun deleteTask(entity: Entity)
 
